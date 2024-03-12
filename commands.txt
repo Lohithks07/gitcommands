@@ -1,0 +1,152 @@
+
+
+
+
+
+ 53  cd marcos/
+   54  ls
+   55  git init
+   56  git config --global user.name "sakit333"
+   57  git config --global user.email "sak528264@gmail.com"
+   58  git config --list
+   59  ls
+   61  cat sample.txt
+   62  git status
+   63  git add sample.txt
+   64  git status
+   65  git commit -m "first commit"
+   66  git log
+   67  git remote -v
+   68  git remote add origin https://github.com/sakit333/marcos.git
+   69  git remote -v
+   70  git push -u origin master
+   71  git status
+   72  git add sample.txt
+   73  git status
+   74  git commit -m "second commit"
+   75  git log
+   76  git remote -v
+   77  git log
+   78  git push origin master
+   79  git status
+   80  git add .
+   81  git status
+   82  git commit -m "v1.1.3"
+   83  git log
+   84  git log --oneline
+   85  git status
+   86  git add .
+   87  git status
+   88  git commit -m "v1.1.4"
+   89  git log --oneline
+   90  git push origin master
+  
+    task 2
+
+   92  git init
+   93  pwd
+   94  ls
+   95  echo "welcome to DevOps"
+   96  ls
+   97  touch sample.txt
+   98  ls
+   99  vi sample.txt
+  100  ls
+  101  cat sample.txt
+  102  rm -rf sample.txt
+  103  ls
+  104  echo "m1" >> sample.txt
+  105  ls
+  106  cat sample.txt
+  107  ls
+  108  rm -rf *
+  109  ls
+  110  echo "m1" >> sample.txt
+  111  ls
+  112  cat sample.txt
+  113  git status
+  114  git add .
+  115  git status
+  116  git commit -m "m1"
+  117  git config --list
+  118  git log
+  119  git log --oneline
+  120  git remote -v
+  121  git remote add origin https://github.com/sakit333/marcos.git
+  122  git remote -v
+  123  git push origin master
+  124  ls
+  125  cat sample.txt
+  126  echo "m2" >> sample.txt
+  127  ls
+  128  cat sample.txt
+  129  git status
+  130  git add .
+  131  git status
+  132  git commit -m "m2"
+  133  git push origin master
+  134  git log --oneline
+  135  echo "m3" >> sample.txt
+  136  git add .
+  137  git commit -m "m3"
+  138  echo "m4" >> sample.txt
+  139  git add .
+  140  git commit -m "m4"
+  141  git log --oneline
+  142  echo "bugs" >> sample.txt
+  143  cat sample.txt
+  144  git status
+  145  git add .
+  146  git status
+  147  git reset sample.txt
+  148  git status
+  149  cat sample.txt
+  150  git checkout sample.txt
+  151  cat sample.txt
+  152  echo "m5 bugs" >> sample.txt
+  153  git status
+  154  git add .
+  155  git status
+  156  git commit -m "m5"
+  157  git log --oneline
+  158  git reset -help
+  159  git log --oneline
+  160  git reset --hard HEAD~1
+  161  git log --oneline
+  162  cat sample.txt
+  163  echo "loo testing" >> sample.txt
+  164  cat sample.txt
+  165  git add .
+  166  git commit -m "m5"
+  167  git log --oneline
+  168  git reset --soft HEAD~1
+  169  git log --oneline
+  170  cat sample.txt
+  171  git log --oneline
+  172  git reset --hard HEAD~1
+  173  git log --oneline
+  174  cat sample.txt
+  175  echo "m4" >> sample.txt
+  176  git add .
+  177  git commit -m "m4"
+  178  git log --oneline
+  179  echo "m5" >> sample.txt
+  180  git add .
+  181  git commit -m "m5"
+  182  git log --oneline
+  183  git branch
+  184  git branch dev
+  185  git branch
+  186  git branch
+  187  git switch dev
+  188  ls
+  189  cat sample.txt
+  190  echo "d1" >> sample.txt
+  191  ls
+  192  cat sample.txt
+  193  git log --oneline
+  194  git add .
+  195  git status
+  196  git commit -m "d1"
+  197  git log --oneline
+  198  git push origin dev
